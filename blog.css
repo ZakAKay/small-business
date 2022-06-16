@@ -1,0 +1,42 @@
+.container {
+}
+
+/* .blog-container {
+    display: grid;
+    grid-template-areas: 
+    "img h2"
+    "img h2"
+    "img h2"
+    ;
+} */
+
+.main-container {
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 3%;
+  color: black;
+  text-decoration: none;
+  font-family: "Arial black", "gadget", sans-serif;
+  word-spacing: 25px;
+  text-transform: uppercase;
+  text-size-adjust: 30px;
+}
+
+.header:hover {
+  color: #0ca49c;
+}
+
+.header h1 {
+  background-color: black;
+  color: white;
+  text-align: left;
+  margin-bottom: 4%;
+  padding: 15px 28px 12px;
+  font-family: "Poller One", cursive;
+  display: inline-block;
+}
