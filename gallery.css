@@ -56,12 +56,6 @@ opacity: 1;
 
 }
 
-
-
-
-
-
-
 .footer { 
 grid-area: footer;
 justify-content: space-around;
@@ -79,8 +73,6 @@ color: white;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
 }   
-
-/* social media, font awesome (ie, fa) icons */
 
 .fa {
 padding: 10px;

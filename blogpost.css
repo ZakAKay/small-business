@@ -112,9 +112,17 @@ a {
 }
 
 @media(min-width: 576px ) {
-
+    .container {
+        display: grid; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+            "header header"
+            "body1 body1"
+            "images images"
+            "footer footer"; 
 }
-
+.images {flex-direction: row;}
+}
 
 @media(min-width: 992px) {
     .container {  
@@ -177,24 +185,5 @@ margin-bottom: 5%;
     opacity: 0.7;
 }
 
-.fa-twitter {
-    background-color: #55ACEE;
-    color: white;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;  
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;       
-}
-
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
-}
 
 }
