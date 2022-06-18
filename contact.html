@@ -4,65 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap" rel="stylesheet">
+    <title>Contact</title>
 </head>
 <body>
-    <div id="header">
-        <a href="./business.html" class="logo">
-            <img src="./mustachiologo.jpg">
-        </a>
-        <span id="mobile-navigation"></span>
-        <ul id="navigation">
-            <li class="selected">
-                <a href="business.html">home</a>
-            </li>
-            <li>
-                <a href="about.html">about</a>
-            </li>
-            <li>
-                <a href="gallery.html">gallery</a>
-            </li>
-            <li>
-                <a href="blog.html">blog</a>
-            </li>
-            <li>
-                <a href="contact.html">contact</a>
-            </li>
-        </ul>
-    </div>
-    <div id="body">
-        <h1>
-            <span>Let's Keep In Touch</span>
-        </h1>
-    <br>
-        <form action="./results.html" method="GET" enctype="multipart/form-data">
-    <br>       
-            <input type="text" name="name" id="name" value="name">
-        
-    <br>        <input type="text" name="address" id="address" value="address">
-            <input type="text" name="phonenumber" id="phonenumber" value="phonenumber">
-    <br>    
-            <textarea name="message" id="message">Message</textarea>
-    <br>    
-            <input type="submit" name="send" id="send" value="send">
+<div class="container">
+
+<div class="header">
+    <a href="./business2.html"><img src="./mustachiologo.jpg" id="logo" class="header"></a>
+    <nav>
+        <a href="./business2.html" class="header">Home</a>
+        <a href="./about.html" class="header">About</a>
+        <a href="./gallery.html" class="header">Gallery</a>
+        <a href="./blog.html" class="header">Blog</a>
+        <a href="./contact.html" class="header">Contact</a>
+    </nav>
+</div>
+
+<div class="main">
+    <div class="lkit"><h1>LET'S KEEP IN TOUCH</h1></div>
+
+        <div>
+            <form action="contact.html">
+                 
+                <input type="text" name="name" class="name" value="name">
+                
+                <input type="text" name="address" class="address" value="address">
+                
+                <input type="text" name="email" class="email" value="email">
+                
+                <input type="text" name="phone" class="phone" value="phone number">
+                 
+                <input type="text" name="message" class="message" id="mess" value="message">
+                <br>
+                <button type="button" class="button" href="./contact.html">Send</button>
             </form>
+    </div>
+</div>
+<div class="footer">
+    <p class="copyright">© 2023 by Mustacchio. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-pinterest"></a>
         </div>
-        <div id="footer">
-            <p>&#169 2023 by Mustacchio. All Rights Reserved.</p>
-            <ul>
-                <li>
-                    <a href="#twitter" id="twitter">Twitter</a>
-                </li>
-                <li>
-                    <a href="#facebook" id="facebook">Facebook</a>
-                </li>
-                <li>
-                    <a href="#googleplus" id="googleplus">googleplus</a>
-                </li>
-                <li>
-                    <a href="#pintrest" id="pintrest">pintrest</a>
-                </li>
-            </ul>
-        </div>
+    </div>
 </body>
-</html>
+</html> 
